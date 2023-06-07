@@ -1,0 +1,3 @@
+1.)In single element selections, if there is more than one of the same element, 
+it only selects the first element. This is why we connect it to a loop 
+in multiple element selections.
