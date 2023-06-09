@@ -12,8 +12,8 @@
       crossorigin="anonymous"
     />
     <style>
-      .mycontainer {
-        font-size: 40px;
+      .Outcontainer {
+        height: 200px;
       }
     </style>
   </head>
@@ -33,7 +33,10 @@
     </div>
 
     <h3 id="nextExercise">NEXT EXERCISES</h3> -->
-    <div id="myBaseContainer" class="mycontainer"></div>
+
+    <!-- // BORDER -->
+
+    <!-- <div id="myBaseContainer" class="mycontainer"></div>
 
     <div id="firstCheckbox" class="form-check">
       <input
@@ -64,7 +67,19 @@
       <li class="list-group-item">A third item</li>
       <li class="list-group-item">A fourth item</li>
       <li class="list-group-item">And a fifth one</li>
-    </ul>
+    </ul> -->
+
+    <div class="Outcontainer">
+      <form class="base-form">
+        <input placeholder="Your Value" id="valueInput" type="text" />
+        <button id="firstButton" type="submit">Add</button>
+        <button id="secondButton" type="button">Delete</button>
+      </form>
+    </div>
+
+    <div class="listElements">
+      <ul class="list-group"></ul>
+    </div>
 
     <script>
       
