@@ -1,0 +1,275 @@
+* {
+    font-family: "Poppins";
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+    height: 100vh;
+}
+
+.screen-1 {
+    background: #9fafca;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+    margin: auto auto;
+    width: 350px;
+}
+
+.screen-1 .logo {
+    margin-top: -3em;
+}
+
+.screen-1 .email {
+    background: #143d59;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: 2em;
+    transition: .5s;
+}
+
+.screen-1 .email:hover {
+    box-shadow: 5px 10px 30px 2px rgb(6, 121, 6);
+}
+
+.screen-1 .email input {
+    outline: none;
+    border: none;
+    background: #143d59;
+    color: white;
+}
+
+.screen-1 .email input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .email input:-ms-input-placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+}
+
+.screen-1 .email input::placeholder {
+    color: rgb(205, 205, 205);
+    font-size: 0.9em;
+}
+
+.screen-1 .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password {
+    background: #143d59;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    transition: .5s;
+}
+
+.screen-1 .password:hover {
+    box-shadow: 5px 10px 30px 2px rgb(6, 121, 6);
+}
+
+.screen-1 .password input {
+    outline: none;
+    border: none;
+    background-color: #143d59;
+    color: white;
+}
+
+.screen-1 .password input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .password input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .password input::placeholder {
+    color: rgb(205, 205, 205);
+    font-size: 0.9em;
+}
+
+.screen-1 .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password .show-hide {
+    margin-right: -5em;
+}
+
+.screen-1 .login {
+    padding: 1em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.screen-1 .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    gap: 14em;
+    padding-bottom: 10em;
+}
+
+.screen-1 .footer span {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+.yaziOrtalama {
+    text-align: center;
+}
+
+div label {
+    text-align: center;
+}
+
+.biggerInput {
+
+    width: 100%;
+}
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Öğeleri yatayda ortalar */
+    align-items: center;
+    /* Öğeleri dikeyde ortalar */
+}
+
+#cardContainer .card {
+    margin: 10px;
+}
+
+ul li {
+
+    text-align: center;
+
+}
+
+h5.card-title {
+
+    text-align: center;
+
+
+}
+
+div.card-body {
+
+    text-align: center;
+}
+
+.kartsistemi {
+
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+
+}
+
+.ortalamaflex {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+.kartsistemi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+}
+
+.input-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    border-style: none;
+    border-color: Transparent;
+    overflow: hidden;
+    /* Bazı tarayıcılarda (firefox)  auto komutu işe yaramaktadır.Scroll kapatır... */
+    resize: none;
+    /* Boyutu değiştirebilme aracı buradan */
+    outline: none;
+    /* Etrafındaki pencereyi kapatmayı sağlar */
+    background-color: #143d59;
+    color: white;
+    ;
+}
+
+.screen-1 .password textarea::placeholder {
+    color: rgb(205, 205, 205);
+    font-size: 1em;
+}
+
+
+.sagtaraf {
+
+    transition: .5s;
+}
+
+
+.sagtaraf:hover {
+
+    box-shadow: 5px 10px 30px 2px red;
+}
+
+div.email label {
+
+    color: #f4b41a;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+div.email {
+
+    background-color: #143d59;
+}
+
+div.password label {
+
+    color: #f4b41a;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}

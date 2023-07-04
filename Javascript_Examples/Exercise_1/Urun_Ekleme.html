@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Son DENEME</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Sondeneme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    
+    
+
+</style>
+
+
+</head>
+    <body>
+
+
+
+                                            <!-- Birinci KISIM -->
+<div class="screen-1">
+    
+    <div class="email">
+      <label for="text">Ürün İsmi</label>
+      <div class="sec-2">
+        <ion-icon name="mail-outline"></ion-icon>
+        <input  id="birinciInput" class="biggerInput birinciBosluk" type="text" name="email" placeholder="Lahmacun"/>
+      </div>
+    </div>
+
+    <div class="password">
+        <label for="text">Açıklama</label>
+        <div class="sec-2">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <textarea id="ikinciInput"  type="text" name="password" placeholder="Tekirdağ yöresinden çıkan kuzu etinin ustamızın eliyle şekillenmesiyle ortaya çıkan lezzet" rows="2"></textarea>
+
+          <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+        </div> 
+      </div>
+
+
+      <div class="password">
+        <label for="text">Gramaj</label>
+        <div style="height: 30px;" class="sec-2">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <div class="input-container">
+            <input style="display: inline-block; width: 155px;" id="ucuncuInput" class="pas biggerInput ucuncuBosluk" type="text" name="password" placeholder="gr"/>
+            <select aria-placeholder="" style="display: inline-block;" class="dropdown" id="dropdown">
+              <option value="gr">gram</option>
+              <option value="kg">kilogram</option>
+              <option value="lt">litre</option>
+              <option value="cc">cc</option>
+              <option value="adet">adet</option>
+              <option value="mg">miligram</option>
+              <option value="bardak">bardak</option>
+
+            </select>
+          </div>
+          <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+        </div>
+      </div>
+
+    
+    <div class="password">
+      <label for="text">Fiyat</label>
+      <div class="sec-2">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input id="dorduncuInput" class="pas biggerInput dorduncuBosluk" type="text" name="password" placeholder="250 TL"/>
+        <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+      </div>
+    </div>
+    <button id="functionRunner"  class="login">Kaydet</button>
+  </div>
+                                            <!-- İKİNCİ KISIM -->
+<div class="screen-1 sagtaraf">
+    
+    <div style="width: 18rem;" class="cardContainer card">
+
+        <img src="https://picsum.photos/200" alt="">
+        <div class="card-body">
+          <h5 id="h5degeri" class="card-title"></h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li id="birinciKisim" class="list-group-item"></li>
+          <li id="ikinciKisim" class="list-group-item"></li>
+          <li id="ucuncuKisim" class="list-group-item"></li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sepete Ekle</a>
+          <a href="#" class="card-link">Sipariş Ver</a>
+        </div>
+      </div>  
+
+
+  
+
+    </div>
+
+  
+
+    <div id="cardContainer"></div>
+
+
+
+<script src="Sondeneme.js">
+    
+</script>
+
+
+
+    </body>
+</html>
